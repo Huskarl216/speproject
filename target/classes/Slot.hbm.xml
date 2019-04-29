@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	 <class name="org.iiitb.courseproject.model.Slot" table="Slot">
+	 
+      <meta attribute = "class-description">
+         This class contains the Student detail. 
+      </meta>
+      
+      <id name = "idSlot" type = "int" column = "idSlot">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "Status" column = "Status" type = "boolean"/>
+      <property name = "SlotValue" column = "SlotValue" type = "string"/>
+      <property name = "Date_id" column = "Date_id" type = "int"/>
+      
+     
+	</class>
+	
+</hibernate-mapping>

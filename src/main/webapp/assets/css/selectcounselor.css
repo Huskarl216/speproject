@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+
+h2 {
+	text-align: center;
+}
+
+#idcouselorlist {
+    text-align: center
+}
+
+.classcounselor{
+	background-color: white;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 15px;
+	margin-bottom: 3px;
+	padding-top: 15px;
+	padding-bottom: 18px;
+
+    text-align: center;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+.classcounselor:hover{
+    background-color: black;
+}

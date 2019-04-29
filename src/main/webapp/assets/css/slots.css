@@ -1,0 +1,71 @@
+body {
+	background-color: 	pink;
+}
+
+#idheading{
+	text-align: center;
+}
+
+.classdatediv{
+	background-color: #e9ecef;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotlist{
+	display: none;
+}
+
+.classslot{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotBooked{
+	background-color: red;
+	color: white;
+}
+
+.classslotRequested{
+	background-color: green;
+	color: white;
+}
+
+.classslotBookedByYou{
+	background-color: blue;
+	color: white;
+}
+
+.classrequestbutton {
+	position: relative;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	float:right;
+	margin-right: 5px;
+	margin-top: 5px;
+}

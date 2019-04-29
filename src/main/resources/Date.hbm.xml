@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	 <class name="org.iiitb.courseproject.model.Date" table="Date">
+	 
+      <meta attribute = "class-description">
+         This class contains the Student detail. 
+      </meta>
+      
+      <id name = "idDate" type = "int" column = "idDate">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "DateValue" column = "DateValue" type = "string"/>
+      <property name = "Counselor_id" column = "Counselor_id" type = "int"/>
+      
+     
+	</class>
+	
+</hibernate-mapping>

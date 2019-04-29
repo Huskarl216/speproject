@@ -1,0 +1,83 @@
+body {
+	background-color: #A4DDED;
+}
+
+
+#idheading{
+	text-align: center;
+}
+
+
+.classdatediv{
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+.classslotlist{
+}
+
+.classslot{
+	background-color: rgb(153, 148, 148);
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+
+}
+
+
+.classrequest{
+	background-color: pink;
+	margin-left: 25%;
+	margin-right: 35%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 3%;
+
+	font-size: 150%;
+	cursor: pointer;
+	
+}
+
+.classacceptbutton {
+	position: relative;
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	float:right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.bookedslot {
+	background-color: greenyellow;
+}
+
+.classBookedStudentName{
+	float:right;
+	padding-right:10px;
+	
+}
